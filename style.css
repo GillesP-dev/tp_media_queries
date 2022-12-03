@@ -1,0 +1,94 @@
+.container {
+    background-color: rgb(213, 223, 226);
+    height: auto;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+.regles p:last-child{
+    margin-bottom: 30px;
+    
+}
+.regles p {
+    display: none;
+    
+}
+.regles h4 {
+    text-decoration: underline;
+    
+}
+.blocs p {
+    padding: 5px;
+    background-color: white;
+    
+}
+h1 {
+    color: rgb(160, 155, 155);
+}
+@media screen and (max-width: 480px){
+.blocs p:nth-child(4) {
+    background-color: rgba(0, 0, 255, 0.61);
+    color: white;  
+} 
+.regles p:nth-child(3) {
+    display: inline;
+    color: blue;
+ }  
+}
+
+@media screen and (max-width: 640px) and (min-width:480px) {
+    .blocs p:nth-child(1) {
+        background-color: rgba(0, 0, 255, 0.61);
+        color: white;   
+    } 
+    .regles p:nth-child(4) {
+        display: block;
+        margin-bottom: 0;
+        color: blue;
+     }   
+}
+
+@media  screen and (min-width: 840px) and (max-width: 1024px) {
+.blocs p:nth-child(2) {
+        background-color: rgba(0, 0, 255, 0.61);
+        color: white;  } 
+        .regles p:nth-child(5) {
+            display: block;
+            margin-bottom: 0;
+            color: blue;
+            }  
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+.blocs p:nth-child(3) {
+        background-color: rgba(0, 0, 255, 0.61);
+        color: white;  
+}
+.regles p:nth-child(6) {
+    display: block;
+    margin-bottom: 0;
+    color: blue;
+ }  
+}
+@media  screen and (orientation: landscape) {
+.blocs p:nth-child(6) {
+    background-color: rgba(0, 0, 255, 0.61);
+    color: white;
+ } 
+ .regles p:nth-child(7) {
+    display: inline;
+    color: blue;
+ }  
+}
+
+@media screen and (orientation: portrait) {
+    .blocs p:nth-child(5) {   
+    background: rgba(0, 0, 255, 0.61);
+    color: white;
+}
+.regles p:nth-child(8) {
+    display: inline;
+    color: blue;
+ }  
+}
